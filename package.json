@@ -1,6 +1,6 @@
 {
   "name": "@banodoco/timeline-theme-2rp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "2RP (Second Renaissance Patrons) theme package for @banodoco/timeline-composition. Ships effect components, theme.json metadata, and per-effect schema/defaults/meta files.",
   "type": "module",
@@ -27,12 +27,10 @@
     "README.md"
   ],
   "peerDependencies": {
-    "@banodoco/timeline-composition": "*",
     "react": ">=18",
     "remotion": ">=4"
   },
   "peerDependenciesMeta": {
-    "@banodoco/timeline-composition": {"optional": false},
     "react": {"optional": false},
     "remotion": {"optional": false}
   },
@@ -40,7 +38,6 @@
     "react": "^18.3.1",
     "@types/react": "^18.3.0",
     "remotion": "^4.0.434",
-    "@remotion/layout-utils": "^4.0.434",
-    "@banodoco/timeline-composition": "github:banodoco/timeline-composition#v0.0.2"
+    "@remotion/layout-utils": "^4.0.434"
   }
 }
